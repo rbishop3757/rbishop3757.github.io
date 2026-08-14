@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RBishop | Home</title>
+    <meta
+      name="description"
+      content="A simple starter portfolio page for GitHub Pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="brand">RB</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1>Ryan Bishop</h1>
+            <p class="lede">
+              I build clean digital experiences and simple, thoughtful products.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#work">View projects</a>
+              <a class="button secondary" href="#contact">Say hello</a>
+            </div>
+            <ul class="mini-stats" aria-label="Quick stats">
+              <li><strong>4+</strong><span>Years</span></li>
+              <li><strong>12</strong><span>Projects</span></li>
+              <li><strong>∞</strong><span>Ideas</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profile card">
+            <div class="profile-glow"></div>
+            <div class="profile-content">
+              <div class="avatar">RB</div>
+              <p class="label">Available for select work</p>
+              <h2>Product & Web Designer</h2>
+              <p>
+                Designing thoughtful interfaces with code, clarity, and a bit of personality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <p class="section-tag">About</p>
+          <h2>Simple ideas, strong execution.</h2>
+          <p>
+            This is a basic GitHub Pages starter with a warm aesthetic, soft gradients,
+            and a layout that is easy to customize as your site grows.
+          </p>
+        </div>
+      </section>
+
+      <section id="work" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Work</p>
+            <h2>Selected highlights</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="project-card">
+              <span class="chip">Brand</span>
+              <h3>Northstar Studio</h3>
+              <p>Identity and landing page design for a creative consultancy.</p>
+            </article>
+
+            <article class="project-card">
+              <span class="chip">Product</span>
+              <h3>FlowPilot</h3>
+              <p>UX direction and interface design for a workflow management tool.</p>
+            </article>
+
+            <article class="project-card">
+              <span class="chip">Web</span>
+              <h3>Signal Notes</h3>
+              <p>Lightweight marketing site for a note-taking startup.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span>Rider Bishop</p>
+        <a href="mailto:riderbishop@gmail.com">riderbishop@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
